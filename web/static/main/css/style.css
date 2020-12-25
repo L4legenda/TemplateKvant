@@ -1,0 +1,495 @@
+body {
+    font-family: 'Lobster', cursive;
+    background:#242B33;
+    
+}
+.logo_img {
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+position: absolute;
+width: 134px;
+height: 66px;
+left: 405px;
+top: 30px;
+
+}
+.nav {
+    display:flex;
+position:absolute;
+width: 541px;
+height: 16px;
+left: 974px;
+top: 55px;
+justify-content: flex-start;
+list-style-type: none;
+
+}
+.img_header{
+
+width: 1920px;
+height: 840px;
+left: 0px;
+top: 0px;
+background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(photo-1493246318656-5bfd4cfb29b8.jpg);
+}
+.mouse {
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 940px;
+top: 505px;
+}
+
+
+.header {
+    width:100%;
+    max-width:1180px;
+    margin:0 auto;
+    padding-left:15px;
+    padding-right:15px;
+    display:flex;
+    margin-left:20px;
+    justify-content: space-between;
+    align-items:center;
+    box-sizing:border-box;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+}
+.nav>li {
+    margin-left:10px;
+}
+
+
+
+.wrap {
+position: absolute;
+width: 1000px;
+height: 109px;
+left: 450px;
+top: 296px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+text-align: center;
+color: #D4C17F;
+
+}
+.page_address {
+    position: absolute;
+width: 218px;
+height: 21px;
+left: 692px;
+top: 745px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: white;
+font-family: 'Lobster', cursive;
+}
+.page_num {
+    position: absolute;
+width: 139px;
+height: 21px;
+left: 1046px;
+top: 745px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: white;
+font-family: 'Lobster', cursive;
+}
+.logo1 {
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+    position: absolute;
+    left: 680px;
+    right: 14.98%;
+    top: 763px;
+    bottom: 0%;
+}
+.logo2 {
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%);
+    position: absolute;
+left:1028px;
+top:763px;
+}
+.text1 {
+position: absolute;
+width: 193px;
+height: 47px;
+left: 563px;
+top: 1093px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color:white;
+font-family: 'Lobster', cursive;
+}
+.group1 {
+    
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 619px;
+    top: 960px;
+
+}
+.text2 {
+position: absolute;
+width: 133px;
+height: 47px;
+left: 826px;
+top: 1093px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color: white;
+font-family: 'Lobster', cursive;
+}
+.group4 {
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 852px;
+top: 960px;
+}
+.group5{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 1056px;
+top: 960px;
+}
+.text3 {
+position: absolute;
+width: 134px;
+height: 47px;
+left: 1029px;
+top: 1093px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color:white;
+font-family: 'Lobster', cursive;
+}
+.group6{
+    position: absolute;
+width: 80px;
+height: 80px;
+left: 1255px;
+top: 966px;
+
+}
+.text4{
+ position: absolute;
+width: 124px;
+height: 47px;
+left: 1233px;
+top: 1093px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+color:white;
+font-family: 'Lobster', cursive;
+}
+.our_rooms{
+position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 1260px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+font-family: 'Lobster', cursive;
+}
+.photo1 {
+    position: absolute;
+width: 535px;
+height: 320px;
+left: 405px;
+top: 1396px;
+
+background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(photo-1505873242700-f289a29e1e0f.jpg), #D4C17F;
+}
+.photo2 {
+    position: absolute;
+width: 535px;
+height: 320px;
+left: 970px;
+top: 1396px;
+
+background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), url(photo-1507149833265-60c372daea22.jpg), #D4C17F;
+}
+.photo3 {
+    position: absolute;
+width: 535px;
+height: 320px;
+left: 405px;
+top: 1746px;
+
+background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(photo-1505873242700-f289a29e1e0f.jpg), #D4C17F;
+}
+.photo4 {
+    position: absolute;
+width: 535px;
+height: 320px;
+left: 970px;
+top: 1746px;
+
+background: linear-gradient(180deg, #242B33 0%, rgba(36, 43, 51, 0) 0.01%, #242B33 100%), url(photo-1507149833265-60c372daea22.jpg), #D4C17F;
+}
+.check {
+position: absolute;
+width: 380px;
+height: 36px;
+left: 405px;
+top: 2246px;
+font-family: Playfair Display;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+font-family: 'Lobster', cursive;
+}
+.check1{
+position: absolute;
+width: 535px;
+height: 114px;
+left: 405px;
+top: 2332px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: white;
+font-family: 'Lobster', cursive;
+}
+.check3 {
+position: absolute;
+width: 255px;
+height: 28px;
+left: 975px;
+top: 2407px;
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 16px;
+text-align: center;
+color: white;
+font-family: 'Lobster', cursive;
+}
+
+
+.textt1{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 455px;
+top: 1644px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+
+.textt2{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 1020px;
+top: 1644px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.textt3{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 455px;
+top: 1994px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.textt4{
+    position: absolute;
+width: 353px;
+height: 22px;
+left: 1020px;
+top: 1994px;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+.video {
+    position: absolute;
+width: 719px;
+height: 650px;
+left: 595px;
+top: 2626px;
+}
+.ipoteka {
+position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 3456px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+font-family: 'Lobster', cursive;
+}
+.map{
+    position: absolute;
+width: 1110px;
+height: 358px;
+left: 405px;
+top: 3592px;
+}
+.question {
+position: absolute;
+width: 292px;
+height: 36px;
+left: 405px;
+top: 4130px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 48px;
+color: #D4C17F;
+font-family: 'Lobster', cursive;
+}
+
+      
+     
+      
+.docbar{
+    position: absolute;
+width: 1920px;
+height: 272px;
+left: 0px;
+top: 4446px;
+
+background: #2D343C;
+}
+.logo12{
+    position: absolute;
+width: 134px;
+height: 66px;
+left: 405px;
+top: 4506px;
+}
+.nav2{
+    
+
+    justify-content: flex-start;
+list-style-type: none;
+    color:white;
+    position: absolute;
+width: 260px;
+height: 149px;
+left: 1276px;
+top: 4518px;
+
+}
+.nav2>li{
+    margin-top:10px;
+}
+.logo-vk{
+    color:white;
+    position: absolute;
+width: 35.05px;
+height: 20px;
+left: 1325px;
+top: 4647px;
+}
+.facebook-logo{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 1381px;
+top: 4647px;
+}
+.insta-logo{
+    position: absolute;
+width: 20px;
+height: 20px;
+left: 1421px;
+top: 4647px;
+}
+
+
+.youtube-logo{
+    position: absolute;
+width: 28.26px;
+height: 20px;
+left: 1276px;
+top: 4647px;
+color: #242B33;
+}
+.zapform{
+position: absolute;
+width: 255px;
+height: 50px;
+left: 975px;
+top: 2311px;
+background: #FFFFFF;
+opacity: 0.2;
+}
+.btninfo{
+position: absolute;
+width: 255px;
+height: 50px;
+left: 1260px;
+top: 4216px;
+background: #D4C17F;
+}

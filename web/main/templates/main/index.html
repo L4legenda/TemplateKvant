@@ -1,0 +1,151 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+
+{% block title %}
+HouseVOP
+{% endblock %}
+
+{% block content %}
+ <header>
+        <div id="complex" class="header">
+            <a href="" class="logo">
+                <span>
+                    <img src='{% static "./img/svg/first-screen__logo.svg" %}' alt="" class="logo_img">
+                </span>
+            </a>
+            <nav class="nav">
+                <li><a href="#complex">О комплексе</a></li>
+                <li><a href="#raion">Район</a></li>
+                <li><a href="#rooms">Каталог квартир</a></li>
+                <li><a href="#map">Район на карте</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </nav>
+        </div>
+    </header>
+    <div class="page">
+        <div  class="wrap">
+            <h1>Жилой комплекс в историческом центре</h1>
+        </div>
+    </div>
+
+    <div class="page_address">
+        <p>Наб. реки Фонтанки 10-15</p>
+    </div>
+
+    <div class="page_num">
+        <p>8(812)123-45-67</p>
+    </div>
+
+    <div>
+        <span >
+            <img id="raion" src='{% static "./img/svg/Group.svg" %}' alt="" class="logo1">
+        </span>
+
+    </div>
+
+    <div>
+        <img src='{%static "./img/svg/Group1.svg" %}' alt="" class="logo2">
+    </div>
+
+    <div>
+        <img src='{% static "./img/svg/Group3.svg" %}' alt="" class="group1">
+        <p  class="text1">Рядом исторические парки и скверы</p>
+    </div>
+
+    <div>
+        <img src='{% static "./img/svg/Group4.svg" %}' alt="" class="group4">
+        <p class="text2">Полностью обустроенный</p>
+    </div>
+
+    <div>
+        <img src='{% static "./img/svg/Group5.svg" %}' alt="" class="group5">
+        <p class="text3">10 фонтанов на территории</p>
+    </div>
+
+    <div>
+        <img src='{% static "./img/svg/Group6.svg" %}' alt="" class="group6">
+        <p class="text4">6 км велодорожек</p>
+    </div>
+    <div>
+        <p id="rooms" class="our_rooms">Наши квартиры</p>
+    </div>
+
+    <div>
+        <img src='{%static "./img/svg/Rectangle.svg" %}' alt="" class="photo1">
+    </div>
+
+    <div>
+        <img src='{%static "./img/svg/Rectangle2.svg" %}' alt="" class="photo2">
+    </div>
+
+    <div>
+        <img src='{%static "./img/svg/Rectangle3.svg" %}' alt="" class="photo3">
+    </div>
+
+    <div>
+        <img src='{%static "./img/svg/Rectangle4.svg" %}' alt="" class="photo4">
+    </div>
+
+    <div>
+        <p class="check">Хотите посмотреть?</p>
+        <p class="check1">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки образцов. </p>
+        
+    </div>
+
+    <img src='{%static "./img/svg/Rectangle_header.svg" %}' alt="" class="img_header">
+
+    <div>
+        <img src='{%static "./img/svg/mouse.svg" %}' alt="" class="mouse">
+    </div>
+
+
+    <div>
+        <p class="textt1">Лофт — 3 этажа</p>
+    </div>
+
+    <div>
+        <p class="textt2">Лофт — 2 этажа</p>
+    </div>
+
+    <div>
+        <p class="textt3">Лофт — 3 этажа</p>
+    </div>
+
+    <div>
+        <p class="textt4">Лофт — 2 этажа</p>
+    </div>
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CZJvjLz_m-k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video"></iframe>
+
+    <div>
+        <p id="map"  class="ipoteka">Район на карте</p>
+    </div>
+
+    <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.315647978431!2d30.336772616211405!3d59.94349726866868!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310b650fe5e1%3A0xed02023eb11a8bc5!2z0L3QsNCx0LXRgNC10LbQvdCw0Y8g0YDQtdC60Lgg0KTQvtC90YLQsNC90LrQuCwgMTAsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTEwMjg!5e0!3m2!1sru!2sru!4v1608300987190!5m2!1sru!2sru" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" class="map"></iframe>
+
+    <div>
+        <p class="question">Есть вопросы?</p>
+    </div>
+
+
+
+
+        <img src='{%static "./img/svg/Rectangle 4.svg" %}' alt="" class="docbar">
+
+    <img src='{%static "./img/svg/first-screen__logo1.svg" %}' alt="" class="logo12">
+
+    <div id="contacts" class="nav2">
+        <li>Адрес: Наб. реки Фонтанки 10-15</li>
+        <li>Телефон: 8 (812) 123-45-67</li>
+        <li>Отдел продаж: 10:00 - 20:00</li>
+        <li>E-mail: vip@housevip.ru</li>
+    </div>
+    <img src='{%static "./img/svg/Group-vk.svg" %}' alt="" class="logo-vk">
+    <img src='{%static "./img/svg/facebook-logo.svg" %}' alt="" class="facebook-logo">
+    <img src='{%static "./img/svg/instagram.svg" %}' alt="" class="insta-logo">
+    <img src='{%static "./img/svg/Vector-youtube.svg" %}' alt="" class="youtube-logo">
+    <a href="{% url 'create' %}"><li><button class="btninfo"><i class="textinbtn"></i></button></li></a>
+
+{% endblock %}
+
